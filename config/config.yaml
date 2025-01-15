@@ -5,3 +5,8 @@ data_ingestion:
    source_URL: "https://github.com/Shwetagithub24/ML-Project-with-MLFlow-and-AWS-EC2/raw/refs/heads/main/data.zip"
    local_data_file: artifacts/data_ingestion/data.zip
    unzip_dir: artifacts/data_ingestion
+
+data_validation:
+    root_dir: artifacts/data_validation
+    unzip_data_dir: C:\Users\shwet\Documents\CV and applications\Projects\ML Project with MLFlow and AWS EC2\ML-Project-with-MLFlow-and-AWS-EC2\artifacts\data_ingestion\data\winequality-red.csv
+    STATUS_FILE: artifacts/data_validation/status.txt
